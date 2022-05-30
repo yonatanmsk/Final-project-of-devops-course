@@ -1,14 +1,11 @@
+<!doctype html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <title>Hello, world!</title>
+</head>
 <body>
-<% 
-   //testing of 'page' object
-    String page_name = page.toString();
-    out.println("Page Name is: " + page_name + "<br>");
-
-   //testing of 'pageContext' object
-   pageContext.setAttribute("guru", "techguru", pageContext.PAGE_SCOPE);
-   String name = (String)pageContext.getAttribute("guru");
-   out.println("Guru name is: " + name);
-%>
+  <h1><%= "Hello, world!" %></h1>
 </body>
 </html>
+
