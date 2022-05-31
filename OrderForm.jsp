@@ -12,6 +12,7 @@
     date = new Date();
 %>
 <b>System date and time: </b> <%= date %>
+      <b>Power of 2: </b>
    <center>
 <table border="2" align="center">
      <th>Exponent</th>
@@ -25,6 +26,7 @@
 </table>
 </center>
    <br/>
+      <b> Degrees&Radians </b>
 <center>
 <%! 
    int degrees[] = {0, 15, 30, 45, 60, 75, 90};
