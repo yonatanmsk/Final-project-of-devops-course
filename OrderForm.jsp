@@ -13,6 +13,8 @@
 %>
 <b>System date and time: </b> <%= date %>
    <br/>
+   <br/>
+   <br/>
       <b>Power of 2: </b>
    <center>
 <table border="2" align="center">
