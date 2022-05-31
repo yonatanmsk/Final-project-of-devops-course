@@ -24,6 +24,7 @@
      <% } //end for loop %>
 </table>
 </center>
+   <br/>
 <center>
 <%! 
    int degrees[] = {0, 15, 30, 45, 60, 75, 90};
