@@ -1,6 +1,6 @@
 <html>
 <head>
-   <title>Degrees&Radians</title>
+   <title>Matemathical site</title>
 </head>
 <body>
    <%-- JSP comments --%>
