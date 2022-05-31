@@ -1,8 +1,17 @@
 <html>
 <head>
-   <title>Powers of 2</title>
+   <title>Degrees&Radians</title>
 </head>
 <body>
+   <%-- JSP comments --%>
+<%@page import="java.util.Date"%>
+<%!
+    Date date; 
+%>
+<% 
+    date = new Date();
+%>
+<b>System date and time: </b> <%= date %>
 <center>
 <%! 
    int degrees[] = {0, 15, 30, 45, 60, 75, 90};
