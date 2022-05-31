@@ -12,6 +12,18 @@
     date = new Date();
 %>
 <b>System date and time: </b> <%= date %>
+   <center>
+<table border="2" align="center">
+     <th>Exponent</th>
+     <th>2^Exponent</th>
+     <% for (int i=0; i<=10; i++) { //start for loop %>
+            <tr>
+                <td><%= i%></td>
+                <td><%= Math.pow(2, i) %></td>
+            </tr>
+     <% } //end for loop %>
+</table>
+</center>
 <center>
 <%! 
    int degrees[] = {0, 15, 30, 45, 60, 75, 90};
