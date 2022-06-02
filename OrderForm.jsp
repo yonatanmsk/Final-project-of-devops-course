@@ -11,7 +11,7 @@
 <% 
     date = new Date();
 %>
-<b>System date and time: </b> <%= date %>
+<b>System date and timeee: </b> <%= date %>
    <br/>
    <br/>
    <br/>
